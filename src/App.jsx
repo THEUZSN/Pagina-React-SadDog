@@ -1,29 +1,17 @@
-import './App.css'
-import Header from './components/Header';
-import Footer from './components/Footer'
+import Home from "./pages/Home"
+import {BrowserRouter, Routes, Route} from "react-router-dom"
 
 function App() {
 
   return (
-    <>
-      <Header/>      
-      <section className='container'>
-        <div className='apresentacao'>
-          <p>
-            Olá, somos <br/>
-            <span>Everton e Matheus Serra</span> <br/>
-            Devs Full Stack
-          </p>
-          <button className='btn btn-red'>
-            Saiba mais sobre nós!
-          </button>
-        </div>
-        <figure>
-          <img className='img-home' src="/undraw_page-eaten_b2rt.svg" alt="Imagem da home" />
-        </figure>
-      </section>
-      <Footer/>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home/>}/>
+        <Route path="/Paages" element={<Pages/>}/>
+        <Route path="/Contatos" element={<Contatos/>}/>
+        <Route path="/Sobre" element={<Sobre/>}/>
+      </Routes>
+    </BrowserRouter>
   )
 }
 
