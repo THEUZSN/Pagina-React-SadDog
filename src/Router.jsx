@@ -7,7 +7,7 @@ import {BrowserRouter, Routes, Route} from "react-router-dom"
 function Router() {
 
   return (
-    <BrowserRouter basename="/REACT-SAD-DOG">
+    <BrowserRouter basename="/Pagina-React-SadDog">
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/projetos" element={<Projetos/>}/>
