@@ -1,12 +1,28 @@
-# React + Vite
+# ✨🐶Página React Sad Dog😢✨
+## Atividade de Programação Web
+> Aplicação web feita com React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🔨Ferramentas
 
-Currently, two official plugins are available:
+<p>
+            <img align="center" height="36" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
+           HTML</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<p>
+            <img align="center" height="36" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
+         CSS</p>
+           
+<p>
+            <img align="center" height="36" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
+           Javascript</p>
 
-## Expanding the ESLint configuration
+<p>
+            <img align="center" height="36" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
+           React</p>
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+          
+  
+# 👨‍💻Desenvolvedores
+* [Matheus Serra Nascimento](https://github.com/THEUZSN)
+* [Everton Nascimento Mancio](https://github.com/Evy8882)
