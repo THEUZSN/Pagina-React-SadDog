@@ -2,6 +2,7 @@ import styles from './Home.module.css'
 import Header from '../../components/Header';
 import Footer from '../../components/Footer'
 import Container from '../../components/Container';
+import img from "/undraw_page-eaten_b2rt.svg";
 
 function Home() {
 
@@ -21,7 +22,7 @@ function Home() {
           </button>
         </div>
         <figure>
-          <img className={styles['img-home']} src="/undraw_page-eaten_b2rt.svg" alt="Imagem da home" />
+          <img className={styles['img-home']} src={img} alt="Imagem da home" />
         </figure>
       </section>
       </Container>      

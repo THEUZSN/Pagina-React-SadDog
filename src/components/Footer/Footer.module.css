@@ -7,5 +7,18 @@
     font-size: 1.125rem;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+}
+.icons{
+    display: flex;
+    gap:6px;
+    font-size: 1.5em;
+
+}
+.icons *{
+    cursor: pointer;
+    transition: 100ms
+}
+.icons *:hover{
+    transform: scale(1.05)
 }
