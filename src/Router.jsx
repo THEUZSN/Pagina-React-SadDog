@@ -8,7 +8,7 @@ import {BrowserRouter, Routes, Route} from "react-router-dom"
 function Router() {
 
   return (
-    <BrowserRouter basename="/Pagina-React-SadDog/dist">
+    <BrowserRouter basename="/">
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/projetos" element={<Projetos/>}/>
