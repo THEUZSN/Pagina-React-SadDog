@@ -1,6 +1,6 @@
 # ✨🐶Página React Sad Dog😢✨
 ## Atividade de Programação Web
-> Aplicação web feita com React
+> Aplicação web feita com React</br>
 Acesso: https://theuzsn.github.io/Pagina-React-SadDog/dist/
 # 🔨Ferramentas
 
