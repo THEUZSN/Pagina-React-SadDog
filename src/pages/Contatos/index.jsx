@@ -9,7 +9,7 @@ function Contatos() {
     <>
         <Header />
         <Container>
-        <h2>Sobre</h2>
+        <h2>Contatos</h2>
         </Container>
         <Footer />
     </>

@@ -7,7 +7,7 @@
     } 
     .home img {
     height: 500px;
-    } .home p {
+    } .home p:not(.likesContainer) {
     font-size: 3rem;
     font-weight: bold;
     margin-bottom: 1rem;
@@ -26,4 +26,48 @@
     } .btn-red:hover {
     background-color: var(--primary);
     }
-    
+    .likesContainer{
+        font-size: 2em;
+        display: flex;
+    }
+    .likeButton,.deslikeButton{
+        background-color: transparent;
+        border: none;
+        height: 100%;
+        font-size: 1em;
+        cursor: pointer;
+        position: relative;
+        transition: 50ms;
+    }
+    .likeButton:hover:not(:active),.deslikeButton:hover:not(:active){
+        filter: brightness(0.9);
+    }
+    .likeButton:active,.deslikeButton:active{
+        transform: scale(1.2);
+    }
+    .likeButton:active::after{
+        content: "👍";
+        background: #24f;
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        z-index: 1;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .deslikeButton:active::after{
+        content: "👎";
+        background: #f42;
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        z-index: 1;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .likeQuant{
+        min-width: 100px;
+        text-align: center;
+    }
