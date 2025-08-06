@@ -3,11 +3,17 @@ import Header from '../../components/Header';
 import Footer from '../../components/Footer'
 import Container from '../../components/Container';
 import Image from "/undraw_page-eaten_b2rt.svg"
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 function Home() {
 
   const [likes, setLikes] = useState(0)
+
+  useEffect(()=>{
+    if (likes > 9){
+      alert(`Voce tem ${likes} likes`);
+    }
+  }, [likes]);
 
   return (
     <>
